@@ -1,0 +1,141 @@
+body{
+  background-color: rgb(255, 255, 255);/*Cor de Fundo*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/*estilo da fonte*/
+  font-size: 20px;/*alteracao do tamanho do texto*/
+  color: black;/*Cor do texto*/
+  }
+  .estilo1{
+  background-color:rgb(41, 176, 230);
+  align-items: center;/*alinhamento dos itens no centro*/
+  margin: 0 auto;/*alinhamento da margem para o centro*/
+  padding: 30px;
+  
+  }
+  .estilo1 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.883);
+  }
+  .estilo1 table{
+  width: 30%;/*largura*/
+  padding: 20px;/*espacamento de itens*/
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  }
+  .estilo1 img{
+      width: 50px;
+      height: 50px;/*altura*/
+      margin: 0 auto;
+  }
+  
+  /*Menu*/
+  
+  nav#menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 90px;/* estava 150px*/
+  left: 600px;
+  }
+  
+  nav#menu li{
+      display: inline-block;
+      padding-right: 15px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      margin: 0 auto;
+  }
+  
+  nav#menu{
+      display: block;
+      margin: 0 auto;
+  }
+  
+  /* Grid styles -------------------------------------------------*/
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  
+  /* Generic styles ----------------------------------------------*/
+  
+  .cards {
+    max-width: 960px;
+    margin: 0 auto 30px;
+  }
+  
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+      height: 200px;
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+  }
+      
+  .article-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    color: aliceblue;
+    background-color:lightgray
+  }
+  .roda img{
+    width: 50px;
+    height: 50px;
+    margin: 0% auto;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.roda{
+  margin: 0 auto;
+  height: 100px;
+  width: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  background-color: white
+}
+
+.page-footer{
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: relative;
+  top: 0px;
+  padding-top: 50px;
+}
+
+.page-footer p{
+  color:black;
+  text-align: center;
+  margin-bottom: -30px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 94px;
+
+}
+/*imagem pular*/
+.img-container{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform 0.5s ease;
+}
+.img-container:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+  

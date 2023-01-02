@@ -1,70 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+*{
+    font-family: Poppins;
+}
+
 body{
   background-color: rgb(255, 255, 255);/*Cor de Fundo*/
-  font-family: Verdana, Geneva, Tahoma, sans-serif;/*estilo da fonte*/
-  font-size: 20px;/*alteracao do tamanho do texto*/
+  font-size: 18px;/*alteracao do tamanho do texto*/
   color: black;/*Cor do texto*/
-  }
-  .estilo1{
-  background-color:rgb(41, 176, 230);
-  align-items: center;/*alinhamento dos itens no centro*/
-  margin: 0 auto;/*alinhamento da margem para o centro*/
-  padding: 30px;
-  
-  }
-  .estilo1 h1{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.883);
-  }
-  .estilo1 table{
-  width: 30%;/*largura*/
-  padding: 20px;/*espacamento de itens*/
-  align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 17px;
+  margin: 0;
   }
 
-  .estilo1 img{
-      width: 50px;
-      height: 50px;/*altura*/
-      margin: 0 auto;
+ header{
+  background-color:rgba(41, 176, 230, 0.664);
+  align-items: center;/*alinhamento dos itens no centro*/
+  padding: 13px;
+  font-family: 'Poppins';
   }
-  
+
+  header h1{
+  margin-left:10%;
+  color: rgba(255, 255, 255, 0.883);
+  font-size: 30px;
+  }
+
+
   /*Menu*/
   
   nav#menu ul{
   list-style: none;
   text-transform: uppercase;
   position: absolute;
-  top: 90px;/* estava 150px*/
-  left: 600px;
+  top: 5%;
+  left:30%;
   }
   
-  
+
 
 nav#menu li{
     display: inline-block;
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 30px;
-    margin: 0 auto;
+  
 }
 
-nav#menu{
-    display: block;
-    margin: 0 auto;
-}
 
 nav#menu a{
     color: black;
     text-decoration:none;
+    font-family: 'Poppins';
+    
 }
 
 nav#menu a:hover{
     color: lightskyblue;
     text-decoration: wavy;
 }
-/*imagem pular*/
+
+/* Container de inicio */
+.inicio{
+    margin-left: 50px;
+text-align: center;
+}
+
+
+
 .img-container{
     width: 300px;
     height: 200px;
@@ -85,43 +88,45 @@ nav#menu a:hover{
     border-radius: 15px;
     
 }
-/*butão*/
-.bttnn {
+
+/*Destinos*/
+
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+    width: 350px;  
+    box-shadow: 0 6px 8px 0 rgba(107, 107, 107, 0.2), 0 6px 20px 0 rgba(133, 131, 131, 0.144);
+ 
+}
+.btn{
     background-color: white;
     color:blue;
-    width: 300px;
+    width: 245px;
     height: 45px;
     border-radius: 20px;
-    border-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    border-color: rgba(0, 0, 0, 0.397);
+    font-family: 'Poppins';
+    font-size: 17px;
     cursor: pointer;
     margin-top: 25px;
     margin-bottom: 30px;
+    margin-left: 50px;
 
 }
-.bttnn:hover{
+.btn:hover{
     background-color: rgb(138, 203, 240);
     transition: backgroun-color 1.5s;
 }
-.tabhome2{
-    margin:0 auto;
-    color: black;
-}
-.tabhome2 img{
-    width: 300px;
-    height: 300px;
-    padding-left: 15px;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -130,16 +135,16 @@ nav#menu a:hover{
     margin: 0 auto;
     height: 100px;
     width: 500px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins';
     font-size: 25px;
     background-color:white;
+    align-items: center;
+    text-align: center;
 }
 .roda img{
-    width: 60px;
-    height: 60px;
-    margin: 0% auto;
-    border-radius: 15px;
-    padding-left: 15px;
+    width: 40px;
+    height: 45px;
+   
 }
 .page-footer{
     background-color:white;
@@ -156,7 +161,7 @@ nav#menu a:hover{
     text-align: center;
     margin-bottom: -30px;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins';
     padding-right: 94px;
 
 }

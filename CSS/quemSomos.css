@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+*{
+    font-family: Poppins;
+}
+
+body{
+  background-color: rgb(255, 255, 255);/*Cor de Fundo*/
+  font-size: 18px;/*alteracao do tamanho do texto*/
+  color: black;/*Cor do texto*/
+  margin: 0;
+  }
+
+ header{
+  background-color:rgba(41, 176, 230, 0.664);
+  align-items: center;/*alinhamento dos itens no centro*/
+  padding: 13px;
+  font-family: 'Poppins';
+  }
+
+  header h1{
+  margin-left:10%;
+  color: rgba(255, 255, 255, 0.883);
+  font-size: 30px;
+  }
+
+
+  /*Menu*/
+  
+  nav#menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 5%;
+  left:30%;
+  }
+  
+
+
+nav#menu li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  
+}
+
+
+nav#menu a{
+    color: black;
+    text-decoration:none;
+    font-family: 'Poppins';
+    
+}
+
+nav#menu a:hover{
+    color: lightskyblue;
+    text-decoration: wavy;
+}
+
+/* Container de inicio */
+.inicio{
+    margin-left: 50px;
+text-align: center;
+}
+
+
+
+.img-container{
+    width: 300px;
+    height: 200px;
+    overflow:hidden;
+    align-items: center;/*alinhamento dos itens no centro*/
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+    align-items: center;/*alinhamento dos itens no centro*/
+}
+.img-container:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    border-radius: 15px;
+    
+}
+
+/*Destinos*/
+
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+    width: 350px;  
+    box-shadow: 0 6px 8px 0 rgba(107, 107, 107, 0.2), 0 6px 20px 0 rgba(133, 131, 131, 0.144);
+ 
+}
+.btn{
+    background-color: white;
+    color:blue;
+    width: 245px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.397);
+    font-family: 'Poppins';
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+}
+.btn:hover{
+    background-color: rgb(138, 203, 240);
+    transition: backgroun-color 1.5s;
+}
+
+
+
+/*Rodapé*/
+.roda{
+    margin: 0 auto;
+    height: 100px;
+    width: 500px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    background-color:white;
+    align-items: center;
+    text-align: center;
+}
+.roda img{
+    width: 40px;
+    height: 45px;
+   
+}
+.page-footer{
+    background-color:white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: relative;
+    top: 0px;
+    padding-top: 50px;
+}
+
+.page-footer p{
+    color:black;
+    text-align: center;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-right: 94px;
+
+}
+
+
+
+

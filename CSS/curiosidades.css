@@ -1,57 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+*{
+    font-family: Poppins;
+}
+
 body{
   background-color: rgb(255, 255, 255);/*Cor de Fundo*/
-  font-family: Verdana, Geneva, Tahoma, sans-serif;/*estilo da fonte*/
-  font-size: 20px;/*alteracao do tamanho do texto*/
+  font-size: 18px;/*alteracao do tamanho do texto*/
   color: black;/*Cor do texto*/
+  margin: 0;
   }
-  .estilo1{
-  background-color:rgb(41, 176, 230);
+
+ header{
+  background-color:rgba(41, 176, 230, 0.664);
   align-items: center;/*alinhamento dos itens no centro*/
-  margin: 0 auto;/*alinhamento da margem para o centro*/
-  padding: 30px;
-  
+  padding: 13px;
+  font-family: 'Poppins';
   }
-  .estilo1 h1{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+
+  header h1{
+  margin-left:10%;
   color: rgba(255, 255, 255, 0.883);
+  font-size: 30px;
   }
-  .estilo1 table{
-  width: 30%;/*largura*/
-  padding: 20px;/*espacamento de itens*/
-  align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 17px;
-  }
-  .estilo1 img{
-      width: 50px;
-      height: 50px;/*altura*/
-      margin: 0 auto;
-  }
-  
+
+
   /*Menu*/
   
   nav#menu ul{
   list-style: none;
   text-transform: uppercase;
   position: absolute;
-  top: 90px;/* estava 150px*/
-  left: 600px;
+  top: 5%;
+  left:30%;
   }
   
-  nav#menu li{
-      display: inline-block;
-      padding-right: 15px;
-      padding-bottom: 20px;
-      padding-left: 30px;
-      margin: 0 auto;
-  }
+
+
+nav#menu li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
   
-  nav#menu{
-      display: block;
-      margin: 0 auto;
-  }
-  
+}
+
+
+nav#menu a{
+    color: black;
+    text-decoration:none;
+    font-family: 'Poppins';
+    
+}
+
+nav#menu a:hover{
+    color: lightskyblue;
+    text-decoration: wavy;
+}
   /* Grid styles -------------------------------------------------*/
   .cards {
     display: grid;
